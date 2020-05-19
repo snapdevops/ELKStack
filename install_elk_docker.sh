@@ -43,4 +43,6 @@ output {
 EOF
 docker run -d --rm -it -v ~/pipeline/:/usr/share/logstash/pipeline/ docker.elastic.co/logstash/logstash:7.7.0
 
+# Observer the logs whether the logstask able to connect to ES ..try to insert some log from logstash to check
+
 
